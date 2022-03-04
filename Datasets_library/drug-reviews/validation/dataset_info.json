@@ -1,0 +1,88 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "default",
+  "dataset_size": 116144739,
+  "description": "",
+  "download_checksums": {
+    "C:\\Users\\ls\\Downloads\\Hugging_Course\\Datasets_library\\data\\drugsComTrain_raw.tsv": {
+      "num_bytes": 84289175,
+      "checksum": "83992773f0f42b20b8c9798767e0f2ce5cf3428c721ee56176d65573d76455e4"
+    },
+    "C:\\Users\\ls\\Downloads\\Hugging_Course\\Datasets_library\\data\\drugsComTest_raw.tsv": {
+      "num_bytes": 28071166,
+      "checksum": "1953e81451b3a43f162e3d438dc1f9c2ee83c9283968a19fce4d3736fdb03eac"
+    }
+  },
+  "download_size": 112360341,
+  "features": {
+    "patient_id": {
+      "dtype": "int64",
+      "id": null,
+      "_type": "Value"
+    },
+    "drugName": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "condition": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "review": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "rating": {
+      "dtype": "float64",
+      "id": null,
+      "_type": "Value"
+    },
+    "date": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "usefulCount": {
+      "dtype": "int64",
+      "id": null,
+      "_type": "Value"
+    },
+    "review_length": {
+      "dtype": "int64",
+      "id": null,
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "post_processed": null,
+  "post_processing_size": null,
+  "size_in_bytes": 228505080,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 87127744,
+      "num_examples": 161297,
+      "dataset_name": "csv"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 29016995,
+      "num_examples": 53766,
+      "dataset_name": "csv"
+    }
+  },
+  "supervised_keys": null,
+  "task_templates": null,
+  "version": {
+    "version_str": "0.0.0",
+    "description": null,
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
